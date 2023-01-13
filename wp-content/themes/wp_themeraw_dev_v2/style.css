@@ -1,0 +1,1496 @@
+/*
+	Theme Name: ThemeRaw Dev
+	Theme URI: http://angelrmolina.com
+	Description: Template base para desarrollar desde 0 con framesworks y scrtips ajustados. Boilerplate, jQuery, Microformatos, Multilenguaje, Opciones de plantilla, editores, ...
+	Author: Angel R Molina
+	Author URI: http://angelrmolina.com/
+	Version: 1.0
+	Tags: tag, tag, tag
+	License: GNU General Public License v2.0
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+	Nota: Está unificado el CSS del boilerplate y el del style, por lo que se trabaja el CSS aquí directamente.
+*/
+
+
+/************************************************
+							CSS HTML5 BOILERPLATE
+							Doc: h5bp.com/css
+************************************************/
+
+/*	
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ * ==|== normalize ==========================================================
+ */
+
+
+/* =============================================================================
+	 HTML5 display definitions
+	 ========================================================================== */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio:not([controls]) { display: none; }
+[hidden] { display: none; }
+
+
+/* =============================================================================
+	 Base
+	 ========================================================================== */
+
+/*
+ * 1. Correct text resizing oddly in IE6/7 when body font-size is set using em units
+ * 2. Prevent iOS text size adjust on device orientation change, without disabling user zoom: h5bp.com/g
+ */
+
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+html, button, input, select, textarea { font-family: "Helvetica Neue",Arial,Helvetica,sans-serif; color: #222; }
+
+body { 
+	margin: 0; font-size: 1em; line-height: 1.4; 
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection declarations have to be separate
+ * Also: hot pink! (or customize the background color to match your design)
+ */
+
+::-moz-selection { background: #69c6f1; color: #045074; text-shadow: none; }
+::selection { background: #69c6f1; color: #045074; text-shadow: none; }
+
+
+/* =============================================================================
+	 Links
+	 ========================================================================== */
+
+a, a:visited
+ { color: #FFF; text-decoration:none; }
+a:hover { text-decoration:underline;}
+a:focus { outline: thin dotted; }
+
+/* Improve readability when focused and hovered in all browsers: h5bp.com/h */
+a:hover, a:active { outline: 0; }
+
+
+/* =============================================================================
+	 Typography
+	 ========================================================================== */
+
+abbr[title] { border-bottom: 1px dotted; }
+
+b, strong { font-weight: bold; }
+
+blockquote { margin: 1em 40px; }
+
+dfn { font-style: italic; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+ins { background: #ff9; color: #000; text-decoration: none; }
+
+mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+
+/* Redeclare monospace font family: h5bp.com/j */
+pre, code, kbd, samp { font-family: monospace, serif; _font-family: 'courier new', monospace; font-size: 1em; }
+
+/* Improve readability of pre-formatted text in all browsers */
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+
+q { quotes: none; }
+q:before, q:after { content: ""; content: none; }
+
+small { font-size: 85%; }
+
+/* Position subscript and superscript content without affecting line-height: h5bp.com/k */
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+
+/* =============================================================================
+	 Lists
+	 ========================================================================== */
+
+ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+dd { margin: 0 0 0 40px; }
+nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+nav#nav-below div.nav-previous {display: inline-block; float: left;}
+nav#nav-below div.nav-next {display: inline-block; float: right;}
+body.single .post {
+	 margin: 15px 0;
+}
+
+/* =============================================================================
+	 Embedded content
+	 ========================================================================== */
+
+/*
+ * 1. Improve image quality when scaled in IE7: h5bp.com/d
+ * 2. Remove the gap between images and borders on image containers: h5bp.com/i/440
+ */
+
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+
+/*
+ * Correct overflow not hidden in IE9
+ */
+
+svg:not(:root) { overflow: hidden; }
+
+
+/* =============================================================================
+	 Figures
+	 ========================================================================== */
+
+figure { margin: 0; }
+
+
+/* =============================================================================
+	 Forms
+	 ========================================================================== */
+
+form { margin: 0; }
+fieldset { border: 0; margin: 0; padding: 0; }
+
+/* Indicate that 'label' will shift focus to the associated form element */
+label { cursor: pointer; }
+
+/*
+ * 1. Correct color not inheriting in IE6/7/8/9
+ * 2. Correct alignment displayed oddly in IE6/7
+ */
+
+legend { border: 0; *margin-left: -7px; padding: 0; white-space: normal; }
+
+/*
+ * 1. Correct font-size not inheriting in all browsers
+ * 2. Remove margins in FF3/4 S5 Chrome
+ * 3. Define consistent vertical alignment display in all browsers
+ */
+
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
+
+/*
+ * 1. Define line-height as normal to match FF3/4 (set using !important in the UA stylesheet)
+ */
+
+button, input { line-height: normal; }
+
+/*
+ * 1. Display hand cursor for clickable form elements
+ * 2. Allow styling of clickable form elements in iOS
+ * 3. Correct inner spacing displayed oddly in IE7 (doesn't effect IE6)
+ */
+
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; *overflow: visible; }
+
+/*
+ * Re-set default cursor for disabled elements
+ */
+
+button[disabled], input[disabled] { cursor: default; }
+
+/*
+ * Consistent box sizing and appearance
+ */
+
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; *width: 13px; *height: 13px; }
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none; }
+
+/*
+ * Remove inner padding and border in FF3/4: h5bp.com/l
+ */
+
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+
+/*
+ * 1. Remove default vertical scrollbar in IE6/7/8/9
+ * 2. Allow only vertical resizing
+ */
+
+textarea { overflow: auto; vertical-align: top; resize: vertical; }
+
+/* Colors for form validity */
+input:valid, textarea:valid {  }
+input:invalid, textarea:invalid { background-color: #f0dddd; }
+
+
+/* =============================================================================
+	 Tables
+	 ========================================================================== */
+
+table { border-collapse: collapse; border-spacing: 0; }
+td { vertical-align: top; }
+
+
+/* =============================================================================
+	 Chrome Frame Prompt
+	 ========================================================================== */
+
+.chromeframe { margin: 0.2em 0; background: #ccc; color: black; padding: 0.2em 0; }
+
+
+/* ==|== primary styles =====================================================
+	 Author:
+	 ========================================================================== */
+
+/* ==|== media queries ======================================================
+	 EXAMPLE Media Query for Responsive Design.
+	 This example overrides the primary ('mobile first') styles
+	 Modify as content requires.
+	 ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+	/* Style adjustments for viewports that meet the condition */
+}
+
+
+
+/* ==|== non-semantic helper classes ========================================
+	 Please define your styles before this section.
+	 ========================================================================== */
+
+/* For image replacement */
+.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; *line-height: 0; }
+.ir br { display: none; }
+
+/* Hide from both screenreaders and browsers: h5bp.com/u */
+.hidden { display: none !important; visibility: hidden; }
+
+/* Hide only visually, but have it available for screenreaders: h5bp.com/v */
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+
+/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+
+/* Hide visually and from screenreaders, but maintain layout */
+.invisible { visibility: hidden; }
+
+/* Contain floats: h5bp.com/q */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+
+
+/* ==|== print styles =======================================================
+	 Print styles.
+	 Inlined to avoid required HTTP connection: h5bp.com/r
+	 ========================================================================== */
+
+@media print {
+	* { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
+	a, a:visited { text-decoration: underline; }
+	a[href]:after { content: " (" attr(href) ")"; }
+	abbr[title]:after { content: " (" attr(title) ")"; }
+	.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
+	pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+	thead { display: table-header-group; } /* h5bp.com/t */
+	tr, img { page-break-inside: avoid; }
+	img { max-width: 100% !important; }
+	@page { margin: 0.5cm; }
+	p, h2, h3 { orphans: 3; widows: 3; }
+	h2, h3 { page-break-after: avoid; }
+}
+
+
+/****************   END _ CSS HTML5 BOILERPLATE ****************/
+
+
+/** START Starkers CSS **/
+
+/* LAYOUT */
+/* ----------------------------------------- */
+
+/* These rather presentational classes are generated by WordPress, so it's useful to have some styles for them. Edit as you see fit. More info: http://codex.wordpress.org/CSS */
+.aligncenter { display:block; margin:0 auto }
+.alignleft { float:left }
+.alignright { float:right }
+.wp-caption { border:1px solid #666; text-align:center; background:#ccc; padding:10px; margin:10px }
+.full-width { width:100%;}
+.inline-block {display:inline-block;}
+
+/* You might find the following useful */
+/* div, ul, li { position:relative } This will save you having to declare each div / ul / li's position as 'relative' and allows you to absolutely position elements inside them
+br.clear { clear:both; display:block; height:1px; margin:-1px 0 0 0 } /* Use this br class to clear your floated columns */
+li#theme-switcher { background:#fff; border:10px solid red; padding:20px; position:fixed; top:0; right:0 } /* Use this if you have the Theme Switcher Reloaded plugin (http://themebot.com/webmaster-tools/1-wordpress-theme-switcher-reloaded) installed and want to make it nice and obvious */
+*/
+/* TYPOGRAPHY */
+/* ----------------------------------------- */
+
+h1, h2, h3, h4, h5, h6 { font-weight:bold;} /* This helps to identify headings at the initial build stage, so I thought it'd be useful to have it */
+.alert { background:red; color:white } /* 'alert' has a basic style, since it's useful to have it standing out for testing purposes.
+*/
+h1 {font-size: 1.8em;}
+h2 {font-size: 1.4em;}
+h1, h2 {
+	color: #FFF; line-height:0;
+}
+h3.eventos {
+	background-color: #007DAE;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-left: -10px;
+    margin-top: 0;
+    padding: 4px 16px 4px 10px
+}
+
+/* Font stack options
+
+	The following represents a list of font stacks, as recommended by Nathan Ford in
+	http://unitinteractive.com/blog/2008/06/26/better-css-font-stacks/
+
+	I've added inverted commas around the relevant family names to ensure compatibility.
+	p = balanced for paragraphs or body copy
+	t = balanced for headlines or titles
+
+	- - - -
+
+Arial, "Helvetica Neue", Helvetica, sans-serif - p, t
+
+Baskerville, "Times New Roman", Times, serif - p
+Baskerville, "Times, Times New Roman", serif - t
+
+Cambria, Georgia, Times, "Times New Roman", serif - p, t
+"Century Gothic", "Apple Gothic", sans-serif - p, t
+
+Consolas, "Lucida Console", Monaco, monospace - p, t
+
+"Copperplate Light", "Copperplate Gothic Light", serif - p, t
+
+"Courier New", Courier, monospace - p, t
+
+"Franklin Gothic Medium", "Arial Narrow Bold", Arial, sans-serif - p, t
+
+Futura, "Century Gothic", "Apple Gothic", sans-serif - p, t
+
+Garamond, "Hoefler Text", "Times New Roman", Times, serif - p
+Garamond, "Hoefler Text", Palatino, "Palatino Linotype", serif - t
+
+Geneva, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif - p
+Geneva, Verdana, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif - t
+
+Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif - p
+Georgia, Times, "Times New Roman", serif - t
+
+GillSans, Calibri, Trebuchet, sans-serif - p
+GillSans, Trebuchet, Calibri, sans-serif - t
+
+"Helvetica Neue", Arial, Helvetica, sans-serif - p
+Helvetica, "Helvetica Neue", Arial, sans-serif - t
+
+Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif - p, t
+
+"Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif - p, t
+
+Palatino, "Palatino Linotype", Georgia, Times, "Times New Roman", serif - p
+Palatino, "Palatino Linotype", "Hoefler Text", Times, "Times New Roman", serif - t
+
+Tahoma, Geneva, Verdana - p
+Tahoma, Verdana, Geneva - t
+
+Times, "Times New Roman", Georgia, serif - p, t
+
+Trebuchet, "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif - p
+Trebuchet, Tahoma, Arial, sans-serif - t
+
+Verdana, Geneva, Tahoma, sans-serif - p
+Verdana, Tahoma, Geneva, sans-serif - t
+
+*/
+
+/** END Starkers CSS **/
+
+/** START WordPress-Defined CSS Classes **/
+.wp-caption-text{}
+.gallery-caption{}
+.bypostauthor{}
+.sticky{}
+/** END WordPress-Defined CSS Classes **/
+
+
+
+
+
+/* ==|== AEES styles ====================================================== */
+
+body {
+	border: 1px solid #c1c1c1 ;
+	background: url("images/bg-web.jpg") repeat scroll 0 0 transparent	
+}
+
+
+/** Body-widths **/ 
+.Overwidth {
+    margin: 0 auto;
+}
+.web {
+	width: 940px; 
+	margin: 0 auto; 	
+}
+
+#wrapper {
+   	display: inline-block;
+    overflow: visible;
+    width: 100%;
+}
+aside a:visited,
+aside a {
+ color: white;
+}
+aside a:hover {
+text-decoration:underline;
+}
+
+.listed {
+	padding: 0px 25px;
+	border-radius: 4px;
+}
+
+.type-page, .type-directiva, .type-socios {
+  	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+    border-radius: 12px 12px 12px 12px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    color: white;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+/** Buttons **/ 
+
+.bt-type-one {
+    -webkit-border-radius: 4px 4px 4px 4px;
+	-moz-border-radius: 4px 4px 4px 4px;
+	border-radius: 4px 4px 4px 4px;
+	font-weight: bold;
+	padding: 3px 0;
+}
+
+/** CSS3 4 all **/ 
+.bs-blue-dark {
+  -webkit-box-shadow: 0px 0px 4px 0px #11456B; /* Saf3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+     -moz-box-shadow: 0px 0px 4px 0px #11456B; /* FF3.5 - 3.6 */
+          box-shadow: 0px 0px 4px 0px #11456B; /* Opera 10.5, IE9, FF4+, Chrome 6+, iOS 5 */
+}
+.bs-blue-dark-inset {
+  -webkit-box-shadow: inset 0px 0px 2px 0px #11456B; /* Saf3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+     -moz-box-shadow: inset 0px 0px 2px 0px #11456B; /* FF3.5 - 3.6 */
+          box-shadow: inset 0px 0px 2px 0px #11456B; /* Opera 10.5, IE9, FF4+, Chrome 6+, iOS 5 */
+}
+.bs-black-trans {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Saf3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+     -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* FF3.5 - 3.6 */
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Opera 10.5, IE9, FF4+, Chrome 6+, iOS 5 */
+}
+.transition {
+  -webkit-transition: all 0.3s ease-out;  /* Saf3.2+, Chrome */
+     -moz-transition: all 0.3s ease-out;  /* FF4+ */
+      -ms-transition: all 0.3s ease-out;  /* IE10 */
+       -o-transition: all 0.3s ease-out;  /* Opera 10.5+ */
+          transition: all 0.3s ease-out;
+}
+.transition1 {
+  -webkit-transition: all 0.1s ease-out;  /* Saf3.2+, Chrome */
+     -moz-transition: all 0.1s ease-out;  /* FF4+ */
+      -ms-transition: all 0.1s ease-out;  /* IE10 */
+       -o-transition: all 0.1s ease-out;  /* Opera 10.5+ */
+          transition: all 0.1s ease-out;
+}
+/** Post **/
+.content-post {
+	position: relative;
+}
+.post {
+    background: url("images/allcontent-bg.png") repeat scroll 0 0 transparent;
+    margin: 15px 0 45px;
+    padding: 10px;
+    font-size: 0.9em;
+    position: relative;
+    z-index: 100;
+
+}
+.home .post:hover{
+  -webkit-box-shadow: 0 0 15px #11456B;
+     -moz-box-shadow: 0 0 15px #11456B; 
+          box-shadow: 0 0 15px #062d4a;	
+}
+
+.post img {
+ max-width: 590px;
+}
+
+h1.entry-title{
+	color: #fff !important;
+}
+
+.type-page h1, .post-type-archive h1, .post h1 {
+    border-bottom: 1px solid;
+    padding-bottom: 5px;	
+    font: 1.9em/23px 'BebasNeueRegular',Arial,sans-serif;
+    margin: 20px 0 30px;
+    color: #007CAD;
+}
+
+.post a, .post a:visited {
+	color: #007CAD;
+}
+
+.post h2 {
+	margin: 2px 0px;
+	font: 1.7em/23px 'BebasNeueRegular',Arial,sans-serif;
+	display:inline-block;
+	color: #0096BA;
+	}
+.post h1 a,
+.post h2 a {
+	text-decoration: none;
+	color: #335d8b;
+}
+.post-tn {
+ 	background: none repeat scroll 0 0 white;
+    border: 1px solid white;
+    box-shadow: 0 0 4px 0 #C1C1C1;
+    float: left;
+    margin: 0 9px 0 0;
+    padding: 2px;
+}
+
+.post .entry-utility {
+/*    border: 1px solid #D9D6D6;*/
+    clear: none;
+    float: right;
+    font-size: 0.9em;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+.post .entry-utility a, .page .entry-utility a { 
+	/*color: #15467b; */
+	color: #FFF;
+	text-decoration: none;
+}
+.allcontent {
+    float: left;
+    width: 65%;	
+    padding: 0 25px
+}
+
+.home .date {
+    background: none repeat scroll 0 0 white;
+    display: block;
+    font-size: 0.7em;
+    height: 100px;
+    padding: 5px 3px 5px 40px;
+    position: absolute;
+    right: 1px;
+    text-align: right;
+    width: 70px;
+    z-index: 15;
+    font: 1.0em/14px 'BebasNeueRegular',Arial,sans-serif;
+    color: #335D8B;
+}
+
+.single .date {
+    background: url("images/bg-blue-dark.jpg") repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    font: 1em/14px 'BebasNeueRegular',Arial,sans-serif;
+    padding: 4px 8px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 101;
+}
+.single .date:hover {
+    padding: 4px 25px;	
+}
+.date span {
+   display: block;
+   text-align: right;	
+}
+
+
+.author {
+	display: inline-block;
+    float: right;
+    line-height: 15px;
+    margin-top: 2px;
+    padding-left: 0;
+    position: relative;
+}
+
+.single article .author {
+	margin-top:-55px;
+}
+
+h4.author i.icon-user {
+	margin-right: 5px;
+    margin-top: 2px;
+}
+
+/** Menu Top **/ 
+.top-menu {
+	background: url("images/bg-blue-dark.jpg") repeat scroll 0 0 transparent;
+}
+.top-menu ul {
+ text-align: right;
+}
+.top-menu ul li {
+	display: inline;
+	z-index: 91;
+	position: relative;
+}
+
+.top-menu ul li a {
+    background: url("images/bg-central-space.jpg") repeat scroll 0 0 transparent;
+    color: white;
+    font-size: 0.89em;
+    padding: 2px 13px;
+    text-decoration: none;
+  -webkit-transition: all 0.3s ease-out;  /* Saf3.2+, Chrome */
+     -moz-transition: all 0.3s ease-out;  /* FF4+ */
+      -ms-transition: all 0.3s ease-out;  /* IE10 */
+       -o-transition: all 0.3s ease-out;  /* Opera 10.5+ */
+          transition: all 0.3s ease-out;
+
+
+} 
+.top-menu ul li a:hover
+{
+    padding: 2px 30px;
+  -webkit-transition: all 0.3s ease-out;  /* Saf3.2+, Chrome */
+     -moz-transition: all 0.3s ease-out;  /* FF4+ */
+      -ms-transition: all 0.3s ease-out;  /* IE10 */
+       -o-transition: all 0.3s ease-out;  /* Opera 10.5+ */
+          transition: all 0.3s ease-out;
+
+}
+
+article#main {
+	background: url("images/bg-central-space.jpg") repeat scroll 0 0 transparent;
+  	min-height: 220px;
+    position: relative;
+    z-index: 90;
+
+}
+
+article#main-plus {
+    background: url("images/bg-blue-dark.jpg") repeat scroll 0 0 transparent;
+    min-height: 70px;
+    position: relative;
+}
+
+article#www {
+	background: url("images/bg-central-space.jpg") repeat scroll 0 0 transparent;
+	min-height: 255px;
+	position: relative;
+	z-index: 90;	
+	padding-bottom: 30px;
+}
+
+.h-landing {
+	position: relative;
+	z-index: 101;
+}
+
+.main-press {
+	position: relative;
+}
+.main-logo {
+    left: -98px;
+    position: absolute;
+    top: -14px;
+    width: 508px;
+}
+
+.main-logo img {
+   width: 508px;	
+}
+
+
+/****************************
+404
+****************************/
+
+article.error404 {
+	color: #FFFFFF;
+	margin-left: 25px;
+}
+
+.shadow {
+	text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.5);
+	color: #FFFFFF;
+}
+
+article.error404 h1 {
+	font: 4em/0 'BebasNeueRegular',Arial,sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-top: 75px;
+    padding: 0;
+}
+
+article.error404 p {
+	font-size: 1em;
+}
+
+article.error404 span {
+	font-size: 1.4em;
+}
+
+article.error404 #lupa404 {
+	float:right;
+	margin-right: 30px;
+    margin-top: -200px;
+}
+
+body.error404 article#www {
+    min-height: 220px;
+}
+
+/** Search Form **/
+#searchform {
+	float: right;
+	margin: 13px 0;
+}
+
+.search-results section.page, .search-results section.socios, .search-results section.directiva {
+	background: url("images/allcontent-bg.png") repeat scroll 0 0 transparent;
+    font-size: 0.8em;
+    margin: 15px 0 15px;
+    padding: 10px;
+    position: relative;
+    z-index: 100;
+    color: #000;
+    width: 100%;
+}
+
+.search-results h2 a {
+	color: #335D8B;
+	text-decoration: none;
+	display:inline-block;
+}
+.search-results p {
+	color: #000;
+	text-decoration: none;
+}
+
+.search-results .entry-utility {
+  border: medium none;
+    clear: none;
+    float: right;
+    font-size: 0.9em;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 3px;
+
+}
+
+.search-results .content-post {
+	width:48%;
+	text-overflow: ellipsis;
+}
+
+.search-results .content-post:nth-child(even) {
+	float:left;
+}
+
+.search-results .content-post:nth-child(odd) {
+	float:right;
+}
+
+.search-results .entry-utility a { 
+	color: #15467b; 
+	text-decoration: none;
+	cursor:pointer;
+}
+
+.search-results .entry-utility .btn {
+	color: #FFF;
+}
+
+.search-results section .archive-info {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+    color: #000000;
+    float: right;
+    font-size: 1.2em;
+    margin-right: -10px;
+    min-width: 65px;
+    padding-left: 11px;
+    padding-right: 12px;
+    position: relative;
+    text-align: left;
+    top: 2px;
+}
+
+.search-results .directiva, .search-results .post{
+	overflow:auto;
+}
+
+.search-results section.ciudad {
+    float: right;
+    left: 78px;
+    max-width: 100px;
+    min-width: 65px;
+    position: relative;
+    top: 39px;
+}
+
+.post-type-archive-directiva .directiva {
+	margin: 0 13px 30px 0;
+	font-size: 0.9em;
+    padding: 10px;
+    position: relative;
+    z-index: 100;
+}
+
+section .socios {
+	display:inline-block;
+}
+
+section.socios footer.entry-utility{
+	float: left;
+}
+
+
+.sform{
+	border: 1px solid #164e76;
+	padding: 5px 10px;
+	background: url("images/bg-central-space.jpg") repeat scroll 0 0 transparent;
+	color: #FFFFFF !important;
+	letter-spacing: 0.06em;
+	width: 200px;
+	font: 1em/23px 'BebasNeueRegular',Arial,sans-serif;
+  -webkit-border-radius: 5px; /* Saf3-4, iOS 1-3.2, Android ≤1.6 */
+     -moz-border-radius: 5px; /* FF1-3.6 */
+          border-radius: 5px; /* Opera 10.5, IE9, Saf5, Chrome, FF4, iOS 4, Android 2.1+ */
+         
+}
+.sform:hover {
+	width: 240px;
+  -webkit-transition: all 0.3s ease-out;  /* Saf3.2+, Chrome */
+     -moz-transition: all 0.3s ease-out;  /* FF4+ */
+      -ms-transition: all 0.3s ease-out;  /* IE10 */
+       -o-transition: all 0.3s ease-out;  /* Opera 10.5+ */
+          transition: all 0.3s ease-out;	
+}
+
+.sformSend {
+    background: url("images/search-m-glass.png") no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    height: 28px;
+    width: 28px;
+}
+
+.sexgears {
+    display: inline;
+    float: right;
+    margin: 0 0;
+    opacity: 1;
+    width: 20px;
+}
+.sexgears:hover{
+  -webkit-transition: all 0.3s ease-out;  /* Saf3.2+, Chrome */
+     -moz-transition: all 0.3s ease-out;  /* FF4+ */
+      -ms-transition: all 0.3s ease-out;  /* IE10 */
+       -o-transition: all 0.3s ease-out;  /* Opera 10.5+ */
+          transition: all 0.3s ease-out;	
+}
+
+.sexquotes {
+    color: white;
+    font: 0.99em/23px 'WalkwayBoldRegular',Arial,sans-serif;
+    letter-spacing: 1px;
+    padding: 12px 27px;
+    width:600px;
+
+}
+.sexquotes span {
+	font-style: italic;
+	color: #74cce1;
+}
+
+.handless {
+    bottom: 0;
+    display: block;
+    left: 160px;
+    padding-top: 100px;
+    position: absolute;
+  	opacity: 0; /* Chrome 4+, FF2+, Saf3.1+, Opera 9+, IE9, iOS 3.2+, Android 2.1+ */
+  	filter: alpha(opacity=0); /* IE6-IE8 */
+
+}
+.handless:hover {
+
+  opacity: 0.99; /* Chrome 4+, FF2+, Saf3.1+, Opera 9+, IE9, iOS 3.2+, Android 2.1+ */
+  filter: alpha(opacity=100); /* IE6-IE8 */
+
+}
+
+
+/** Sidebar R **/ 
+
+.side-r {
+    background: url("images/bg-blue-dark.jpg") repeat scroll 0 0 transparent;
+    float: left;
+    margin: 15px 0 10px -5px;
+    padding: 0 5px;
+    width: 28%;
+  -webkit-box-shadow: 0px 0px 4px 0px #11456B; /* Saf3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+     -moz-box-shadow: 0px 0px 4px 0px #11456B; /* FF3.5 - 3.6 */
+          box-shadow: 0px 0px 4px 0px #11456B; /* Opera 10.5, IE9, FF4+, Chrome 6+, iOS 5 */    
+}
+
+.side-r h3 {
+    background: url("images/bg-central-space.jpg") repeat scroll 0 0 transparent;
+    border-radius: 3px 3px 3px 3px;
+    color: white;
+    font: 1.2em/23px 'BebasNeueRegular',Arial,sans-serif;
+    margin: 5px;
+    text-align: center;
+    text-shadow: 1px 1px 3px #204772;
+  -webkit-border-radius: 3px; /* Saf3-4, iOS 1-3.2, Android ≤1.6 */
+     -moz-border-radius: 3px; /* FF1-3.6 */
+          border-radius: 3px; /* Opera 10.5, IE9, Saf5, Chrome, FF4, iOS 4, Android 2.1+ */  
+  -webkit-transition: all 0.3s ease-out;  /* Saf3.2+, Chrome */
+     -moz-transition: all 0.3s ease-out;  /* FF4+ */
+      -ms-transition: all 0.3s ease-out;  /* IE10 */
+       -o-transition: all 0.3s ease-out;  /* Opera 10.5+ */
+          transition: all 0.3s ease-out;	       
+
+}
+
+aside h4 {
+	line-height:0;
+}
+
+.side-logos {
+	background: url("images/allcontent-bg.png") repeat scroll 0 0 transparent;
+  	border-radius: 5px 5px 5px 5px;
+    display: block;
+    float: right;
+    margin-right: 20px;
+    margin-top: -10px;
+    padding-left: 21px;
+    padding-right: 10px;
+    width: 228px;
+}
+
+.side-logos h4 {
+	display: inline-block;
+    line-height: 0;
+    margin-top: 10px;
+}
+
+.side-logos img {
+  margin: 5px 0 5px 5px;	
+}
+
+.side-logos #logoAcademia {
+   margin-left: 39px;
+}
+
+.side-logos #logoFESS, .side-logos #logoFLASSES{
+    margin-left: 22px;
+}
+
+
+/** Calendar **/ 
+#wp-calendar {/*color: #0b2848;*/color:#FFF;}
+#ec3_spinner,
+#ec3_publish {
+	display: none !important;
+}
+#wp-calendar caption,
+#wp-calendar #prev,
+#wp-calendar #next {
+text-transform: capitalize;
+}
+#wp-calendar table #today,
+#wp-calendar table td:hover {
+	border: none !important;
+	padding: 1px !important;
+}
+
+#wp-calendar table #today {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4);
+    border-radius: 2px 2px 2px 2px;
+    color: white;
+}
+
+.ec3_eventday {
+	background-color: #FFFFFF;
+}
+
+.ec3_eventday a {
+	color: #335D8B !important;
+}
+
+div#wp-calendar caption {
+ 	margin-bottom: 5px;
+    margin-top: -22px;
+}
+
+/** Section Sidebar**/
+
+aside.side-r section {
+	display: block;
+    padding-top: 5px;
+}
+
+aside.side-r section ul {
+	list-style: none outside none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+section#recent-comments-3 {
+	color:#FFF;
+}
+
+
+/** Footer **/ 
+
+footer {clear: both;}
+.foo {
+  	background: url("images/bg-blue-dark.jpg") repeat scroll 0 0 transparent;
+    height: 90px;
+    min-height: 125px;
+    position: relative;
+}
+
+.col { 
+	border-right: 1px solid #EEEEEE;
+    float: left;
+    height: 105px;
+    padding: 0 0 0 33px;
+    width: 275px;
+}
+
+.foo .col:last-child {
+	border-right:none;
+}
+
+.foo .col ul {
+	font-size: 0.9em;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+.foo .col li {
+    margin-top: 5px;
+    padding: 0;
+}
+
+.foo .col li:first-child {
+    margin: 0;
+    padding: 0;
+}
+
+.foo .col h3 {
+	color: #EEEEEE;
+	font-size: 1.1em;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	text-transform: uppercase;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.footer-copyright {
+	height: 30px;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.footer-copyright span {
+	color: #000000;
+    font: 0.8em/23px Helvetica,Arial,sans-serif;
+}
+
+.footer-copyright a {
+	color: #000000;
+}
+
+.footer-copyright #credit {
+	float:right;
+	margin-right:7px;
+}
+
+.footer-copyright #copyright {
+	float:left;
+	margin-left:25px;
+}
+
+.footer-columns {
+	height: 105px;
+}
+
+.footer-columns h2 {
+	line-height:1em;
+}
+
+.foo .col {
+	color: #FFF;
+}
+/**********************
+JUNTA DIRECTIVA
+***********************/
+
+.box-single-directivo {
+	 border-radius: 0 0 12px 12px;
+	background-color: rgba(0, 0, 0, 0.1);
+	padding: 10px;
+}
+
+.box-single-directivo article {
+	background:none;
+	box-shadow:none;
+	width: 95%;
+}
+
+.box-block {
+    -moz-transition: background 0s ease 0s, box-shadow 0.3s ease-in 0s;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 12px 12px 12px 12px;
+    margin-right: 14px;
+    min-height: 227px;
+    overflow: auto;
+}
+.box-foto {
+    border-radius: 7px 7px 7px 7px !important;
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+    width: 150px;
+}
+.box-foto img {
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+}
+.box-foto img:hover {
+    opacity: 1;
+}
+.box-foto span {
+    display: inline-block;
+    margin-top: 9px;
+    text-align: center;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+    width: 100%;
+    font-weight:bold;
+}
+.box-foto span:last-child {
+    font-size: 0.9em;
+    text-transform: none;
+}
+
+h1.name-single-directivo {
+    font-size: 2.8em;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.7)
+}
+
+span.puesto-single-directivo {
+	font-size: 2em;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+div.box-single-directivo .box-foto img {
+ 	margin-top: -90px;
+	-webkit-transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
+	-o-transform: rotate(5deg);
+	-ms-transform: rotate(5deg);
+	transform: rotate(5deg);
+}
+
+
+/****************
+ Contacto 
+ ***************/
+
+div#wpcf7-f95-p71-o1 form.wpcf7-form textarea {
+ 	min-height: 140px;
+    min-width: 70%;
+}
+
+div#wpcf7-f95-p71-o1 form.wpcf7-form div#background-form label:nth-child(10) {
+	float: right; 
+	margin-top: -175px;
+	margin-right: 565px;
+}
+
+div#wpcf7-f95-p71-o1 form.wpcf7-form div#background-form textarea:last-child {
+ float: right;
+    margin-right: 0;
+    margin-top: -150px;
+    width: 70%;
+}
+
+
+/***************
+Socios
+****************/
+
+.socios-map {
+    background: none repeat scroll 0 0 white;
+    display: block;
+    margin: 10px 10px 100px 10px;
+    padding: 5px;
+    position: relative;
+    width: 625px;
+    float: left;
+}
+.socios-map h2 {
+    background: none repeat scroll 0 0 white;
+    color: #335D8B;
+    font: 1.3em/24px 'BebasNeueRegular',Arial,sans-serif;
+    left: 42%;
+    padding: 4px 20px 2px;
+    position: absolute;
+    top: -15px;
+    z-index: 99;
+  -webkit-border-radius: 0px 0px 5px 5px; /* Saf3-4, iOS 1-3.2, Android ≤1.6 */
+          border-radius: 0px 0px 5px 5px; /* Opera 10.5, IE9, Saf5, Chrome, FF4+, iOS 4, Android 2.1+ */    
+
+  -webkit-box-shadow: 0px 4px 4px 0px #6699BF; /* Saf3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+          box-shadow: 0px 4px 4px 0px #6699BF; /* Opera 10.5, IE9, FF4+, Chrome 6+, iOS 5 */
+      }
+
+#socios-ciudades {
+	background: url("images/bg-blue-dark.jpg") repeat scroll 0 0 transparent;
+	border: 4px solid #FFFFFF;
+    display: inline-block;
+    float: right;
+    height: auto;
+    position: relative;
+    top: 10px;
+    width: 275px;
+
+}
+
+#socios-ciudades .block-title {
+	display: inline-block;
+    height: 30px;
+    width: 100%;
+}
+
+#socios-ciudades .block-title h2 {
+	background: none repeat scroll 0 0 white;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 4px 4px 0 #6699BF;
+    color: #335D8B;
+    font: 1.3em/24px 'BebasNeueRegular',Arial,sans-serif;
+    left: 20px;
+    padding: 4px 20px 2px;
+    position: relative;
+    top: -20px;
+    width: 195px;
+    z-index: 99;
+}
+
+#socios-ciudades #wrapper-list-socios {
+  height: 100%;
+  padding: 5px;
+}
+
+
+#socios-ciudades #wrapper-list-socios a {
+ color: #FFFFFF;
+  cursor: pointer;
+    text-decoration: none;
+    margin: 1.5px;
+}
+
+
+
+
+/* Mapa Profesionales */
+
+div.pgmm a {
+	color: #000;          
+
+}
+.buscar-socio {
+    background: none repeat scroll 0 0 white;
+    color: #335D8B;
+    font: 1.3em/24px 'BebasNeueRegular',Arial,sans-serif;
+    left: 36%;
+    bottom: -25px;
+    padding: 4px 20px 2px;
+    position: absolute;
+    margin-bottom: -15px;
+    z-index: 99;
+     width: 230px;
+  -webkit-border-radius: 0px 0px 5px 5px; /* Saf3-4, iOS 1-3.2, Android ≤1.6 */
+          border-radius: 0px 0px 5px 5px; /* Opera 10.5, IE9, Saf5, Chrome, FF4+, iOS 4, Android 2.1+ */    
+
+  -webkit-box-shadow: 0 4px 4px 0 #335D8B; /* Saf3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+          box-shadow: 0 4px 4px 0 #335D8B; /* Opera 10.5, IE9, FF4+, Chrome 6+, iOS 5 */}
+
+.buscar-socio .sformSend {
+    position: absolute;
+    right: 5px;
+}
+
+/**** Others *****/
+
+.slider-wrapper {
+    background: url("images/bg-blue-dark.jpg") repeat scroll 0 0 transparent;
+    border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    display: block;
+    margin-top: 10px;
+    padding: 8px 8px 20px;
+    position: absolute;
+    right: 1px;	
+}
+.nivo-caption {
+	background: none repeat scroll 0 0 transparent;
+	bottom: -32px;
+	height: 35px;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+	overflow: hidden;
+	padding: 3px 10px;
+	text-align: center;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #FFFFFF;
+	font-size: 13px;
+	position: absolute;
+	z-index: 8;
+}
+
+.nivo-caption p {
+	padding:5px;
+	margin:0;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+
+.nivo-directionNav a {
+	position:absolute;
+	top:45%;
+	z-index:9;
+	cursor:pointer;
+}
+
+.nivoSlider {
+	 float: right;
+    height: auto;
+    position: relative;
+    width: 455px;
+	margin-top: 0px;	
+	margin-bottom: 0px;
+}
+
+.nivo-main-image {
+	display: block !important;
+	position: relative !important; 
+	width: 100% !important;
+}
+
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+.nivo-directionNav {
+	display: block;
+}
+
+.nivo-prevNav {
+	background: url("images/bg-blue-dark.jpg") repeat scroll 0 0 transparent;
+	 left: -37px;
+}
+
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+	top:0;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+	overflow:hidden;
+}
+.nivo-box img { display:block; }
+
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+}
+
+.theme-default a.nivo-prevNav {
+    background: url("images/bg-blue-dark.jpg") repeat scroll 0 0 transparent !important;
+    border-radius: 5px 0 0 5px;
+    -webkit-border-radius: 5px 0 0 5px;
+    height: 150px !important;
+    left: -23px !important;
+    top: 13px !important;
+    width: 23px !important;	
+    z-index: 1;
+}
+.theme-default a.nivo-nextNav {
+    background: url("images/bg-blue-dark.jpg") repeat scroll 0 0 transparent !important;
+    border-radius: 0px 5px 5px 0px;
+    -webkit-border-radius: 0px 5px 5px 0px;
+    height: 150px !important;
+    right: -23px !important;
+    top: 13px !important;
+    width: 23px !important;	
+    z-index: 1;
+}
+.theme-default .nivo-nextNav span {
+    background: url("images/right.png") no-repeat scroll -2px 0 transparent;
+    display: block;
+    height: 32px;
+    margin-top: 63px;
+    opacity: 0.3;
+    width: 32px;	
+}
+
+.theme-default .nivo-prevNav span {
+    background: url("images/left.png") no-repeat scroll -1px 0 transparent;
+    display: block;
+    height: 32px;
+    margin-top: 63px;
+    opacity: 0.3;
+    width: 32px;	
+}
+
+.theme-default .nivo-directionNav a {
+    text-indent: -9999px;
+}

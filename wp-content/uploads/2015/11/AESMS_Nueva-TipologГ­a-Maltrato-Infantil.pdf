@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="es-ES" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AES &#8211; Asociación de Especialistas en Sexología</title>
+  <link rel="profile" href="https://gmpg.org/xfn/11">
+  <link rel="stylesheet" href="/wp-content/themes/wp_themeraw_dev_v2/style.css">
+  <link rel="pingback" href="/xmlrpc.php">
+  <link rel="alternate" type="application/rss+xml" title="AES - Asociación de Especialistas en Sexología &raquo; Feed" href="/feed/">
+  <link rel="alternate" type="application/rss+xml" title="AES - Asociación de Especialistas en Sexología &raquo; RSS de los comentarios" href="/comments/feed/">
+  <link rel='stylesheet' id='css-jquery-ui-css' href='/wp-content/themes/wp_themeraw_dev_v2/js/ui/css/custom-theme/jquery-ui-1.8.18.custom.css?ver=91fcb3cdd5bc24a9a6755a2874543a0c' type='text/css' media='all'>
+  <link rel='stylesheet' id='css-font-face-css' href='/wp-content/themes/wp_themeraw_dev_v2/font-face/font-face.css?ver=91fcb3cdd5bc24a9a6755a2874543a0c' type='text/css' media='all'>
+  <link rel='stylesheet' id='socios-css' href='/wp-content/themes/wp_themeraw_dev_v2/css/socios.css?ver=91fcb3cdd5bc24a9a6755a2874543a0c' type='text/css' media='all'>
+  <link rel='stylesheet' id='gallery-css' href='/wp-content/themes/wp_themeraw_dev_v2/css/gallery.css?ver=91fcb3cdd5bc24a9a6755a2874543a0c' type='text/css' media='all'>
+  <link rel='stylesheet' id='contact-form-7-css' href='/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.1.1' type='text/css' media='all'>
+  <script type='text/javascript' src='/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
+  <script type='text/javascript' src='/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+  <script type='text/javascript' src='/wp-content/themes/wp_themeraw_dev_v2/js/ui/js/jquery-ui-1.8.18.custom.min.js?ver=91fcb3cdd5bc24a9a6755a2874543a0c'></script>
+  <script type='text/javascript' src='/wp-content/themes/wp_themeraw_dev_v2/js/ui/development-bundle/ui/jquery.ui.core.js?ver=91fcb3cdd5bc24a9a6755a2874543a0c'></script>
+  <script type='text/javascript' src='/wp-content/themes/wp_themeraw_dev_v2/js/printElem.js?ver=91fcb3cdd5bc24a9a6755a2874543a0c'></script>
+  <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
+  <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml">
+  <script type='text/javascript' src='/wp-content/plugins/event-calendar-3-for-php-53/xmlhttprequest.js'></script>
+  <script type='text/javascript' src='/wp-content/plugins/event-calendar-3-for-php-53/ec3.js'></script>
+  <script type='text/javascript'>
+  <!--
+
+        ec3.start_of_week=1;
+
+        ec3.month_of_year=new Array('enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre');
+
+        ec3.month_abbrev=new Array('ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic');
+
+        ec3.myfiles='https://aes-sexologia.com/wp-content/plugins/event-calendar-3-for-php-53';
+
+        ec3.home='https://aes-sexologia.com';
+
+        ec3.hide_logo=1;
+
+        ec3.viewpostsfor="View posts for %1$s %2$s";
+
+        // -->
+  </script>
+  <style type='text/css' media='screen'>
+
+  @import url(/wp-content/plugins/event-calendar-3-for-php-53/ec3.css);
+
+  .ec3_ec {
+
+  background-image:url(/wp-content/plugins/event-calendar-3-for-php-53/ec.png) !IMPORTANT;
+
+  background-image:none;
+
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/wp-content/plugins/event-calendar-3-for-php-53/ec.png');
+
+  }
+
+
+  </style>
+  <script type="text/javascript">
+  (function(url){
+        if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+        var addEvent = function(evt, handler) {
+                if (window.addEventListener) {
+                        document.addEventListener(evt, handler, false);
+                } else if (window.attachEvent) {
+                        document.attachEvent('on' + evt, handler);
+                }
+        };
+        var removeEvent = function(evt, handler) {
+                if (window.removeEventListener) {
+                        document.removeEventListener(evt, handler, false);
+                } else if (window.detachEvent) {
+                        document.detachEvent('on' + evt, handler);
+                }
+        };
+        var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+        var logHuman = function() {
+                if (window.wfLogHumanRan) { return; }
+                window.wfLogHumanRan = true;
+                var wfscr = document.createElement('script');
+                wfscr.type = 'text/javascript';
+                wfscr.async = true;
+                wfscr.src = url + '&r=' + Math.random();
+                (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+                for (var i = 0; i < evts.length; i++) {
+                        removeEvent(evts[i], logHuman);
+                }
+        };
+        for (var i = 0; i < evts.length; i++) {
+                addEvent(evts[i], logHuman);
+        }
+  })('//aes-sexologia.com/?wordfence_lh=1&hid=8A3443A47F6EBF92B239595490D78826');
+  </script>
+  <style type="text/css">
+  .recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}
+  </style>
+
+<script src="/script.js"></script>
+</head>
+<body class="home blog">
+  <nav class="top-menu" role="navigation">
+    <ul class="web transition">
+      <div class="the_menu_top">
+        <ul id="menu-the_menu_top" class="menu">
+          <li id="menu-item-251" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-251">
+            <a href="/">Inicio</a>
+          </li>
+          <li id="menu-item-69" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-69">
+            <a href="/nuestra-mision/">Nuestra misión</a>
+          </li>
+          <li id="menu-item-542" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-542">
+            <a href="/directiva">Junta Directiva</a>
+          </li>
+          <li id="menu-item-210" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-210">
+            <a href="/mapa-de-profesionales/">Mapa de Profesionales</a>
+          </li>
+          <li id="menu-item-68" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-68">
+            <a href="/cialis.html">Cialis</a>
+          </li>
+          <li id="menu-item-114" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-114">
+            <a href="/galeria/">Galeria</a>
+          </li>
+          <li id="menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-73">
+            <a href="/contacto/">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </ul>
+  </nav>
+  <article id="main" class="Overwidth bs-blue-dark" role="main">
+    <header class="main-press web">
+      <a href="/" class="main-logo"><img title="AES &#8211; Asociación de Especialistas en Sexología" alt="AES &#8211; Asociación de Especialistas en Sexología" src="/wp-content/themes/wp_themeraw_dev_v2/images/logo-hq.png"></a>
+      <div class="slider-wrapper theme-default">
+        <div id="slider" class="nivoSlider"><img src="/wp-content/themes/wp_themeraw_dev_v2/slider/images/beverly.jpg" alt="" title="#beverly"> <img src="/wp-content/themes/wp_themeraw_dev_v2/slider/images/congresoSantander.jpg" alt="" title="#congresoSantander2004"></div>
+        <div id="beverly" class="nivo-html-caption">
+          <strong>Antonio Casaubom</strong> y <strong>Beverly Wippel</strong> en la VI Jornadas AES-ESPILL
+        </div>
+        <div id="congresoSantander2004" class="nivo-html-caption">
+          Durante el <strong>Congreso de Sexología</strong> de Santander en 2004
+        </div>
+        <div id="congresoMadrid2006" class="nivo-html-caption">
+          Durante el <strong>Congreso de Sexología</strong> de Madrid en 2006
+        </div>
+      </div>
+    </header>
+  </article>
+  <article id="main-plus" class="Overwidth bs-blue-dark" role="main">
+    <header class="web h-landing">
+      <form role="search" method="get" id="searchform" action="https://aes-sexologia.com/" name="searchform">
+        <input class="bs-blue-dark sform transition" type="text" value="" name="s" id="s" placeholder="Buscar profesionales..."> <input type="submit" class="sformSend" id="searchsubmit" value="" title="¡Buscar!">
+      </form>
+      <div class="sexgears transition"><img src="/wp-content/themes/wp_themeraw_dev_v2/images/sex-gears.png"></div>
+      <section class="sexquotes">
+        El sexo sin amor es una experiencia vacía. Pero como experiencia vacía es una de las mejores. &#8212; <span>Woody Allen</span>
+      </section>
+    </header>
+  </article>
+  <article id="www" class="Overwidth bs-blue-dark" role="www">
+    <section class="web">
+      <section id="wrapper">
+        <section class="allcontent">
+<article class="content-post">
+            <section id="post-908" class="post-908 post type-post status-publish format-standard has-post-thumbnail hentry category-encuentros bs-black-trans transition1">
+              <section class="archive-info ciudad"></section>
+              <h2 class="entry-title"><a href="/articulos/me-deje-los-anticonceptivos-en-un-coche-caliente/" title="" rel="bookmark">Terapia regenerativa para la disfunción eréctil
+                </a></h2>
+              <h4 class="author"><i class="icon-user"></i>José Bustamente</h4>
+              <div class="entry-content">
+                
+                <p>Aquí puede conocer los nuevos métodos de tratamiento de la disfunción eréctil en el hombre:
+                  <p><a href="https://aes-sexologia.com/Terapia%20regenerativa%20para%20la%20disfunci%C3%B3n%20er%C3%A9ctil/">Terapia regenerativa para la disfunción eréctil</a></p>
+              </div>
+              <footer class="entry-utility bt-type-one">
+                <a id="btn-background-form" class="btn btn-primary btn-small" href="/articulos/me-deje-los-anticonceptivos-en-un-coche-caliente/">Seguir leyendo <i class="icon-arrow-right icon-white"></i></a>
+              </footer>
+            </section>
+          </article>
+  <article id="www" class="Overwidth bs-blue-dark" role="www">
+    <section class="web">
+      <section id="wrapper">
+        <section class="allcontent">
+<article class="content-post">
+            <section id="post-908" class="post-908 post type-post status-publish format-standard has-post-thumbnail hentry category-encuentros bs-black-trans transition1">
+              <section class="archive-info ciudad"></section>
+              <h2 class="entry-title"><a href="/articulos/me-deje-los-anticonceptivos-en-un-coche-caliente/" title="" rel="bookmark">¿Se puede tomar Cialis con Terazosina?
+                </a></h2>
+              <h4 class="author"><i class="icon-user"></i>José Bustamente</h4>
+              <div class="entry-content">
+                
+                <p>El uso simultáneo de bloqueadores alfa-1 como la terazosina y los inhibidores de la PDE5 como Cialis puede causar una serie de problemas de salud. En este artículo, consideraremos exactamente qué problemas puede causar el uso simultáneo de Cialis y Terazozin, y cómo evitarlos. 
+                  <p><a href="https://aes-sexologia.com/Se%20puede%20tomar%20Cialis%20con%20Terazosina/">¿Se puede tomar Cialis con Terazosina?</a></p>
+              </div>
+              <footer class="entry-utility bt-type-one">
+                <a id="btn-background-form" class="btn btn-primary btn-small" href="/articulos/me-deje-los-anticonceptivos-en-un-coche-caliente/">Seguir leyendo <i class="icon-arrow-right icon-white"></i></a>
+              </footer>
+            </section>
+          </article>
+  <article id="www" class="Overwidth bs-blue-dark" role="www">
+    <section class="web">
+      <section id="wrapper">
+        <section class="allcontent">
+<article class="content-post">
+            <section id="post-908" class="post-908 post type-post status-publish format-standard has-post-thumbnail hentry category-encuentros bs-black-trans transition1">
+              <section class="archive-info ciudad"></section>
+              <h2 class="entry-title"><a href="/articulos/me-deje-los-anticonceptivos-en-un-coche-caliente/" title="" rel="bookmark">¿Por qué no se recomienda dividir Cialis?
+                </a></h2>
+              <h4 class="author"><i class="icon-user"></i>José Bustamente</h4>
+              <div class="entry-content">
+                
+                <p>¿Qué hacer si necesita reducir la dosis de Cialis? ¿Se puede dividir la tableta de Cialis en partes en este caso? Lea más en nuestro artículo 
+                  <p><a href="https://aes-sexologia.com/No%20se%20recomienda%20dividir%20Cialis/">¿Por qué no se recomienda dividir Cialis?</a>  </p>
+              </div>
+              <footer class="entry-utility bt-type-one">
+                <a id="btn-background-form" class="btn btn-primary btn-small" href="/articulos/me-deje-los-anticonceptivos-en-un-coche-caliente/">Seguir leyendo <i class="icon-arrow-right icon-white"></i></a>
+              </footer>
+            </section>
+          </article>
+          <article class="content-post">
+            <section id="post-908" class="post-908 post type-post status-publish format-standard has-post-thumbnail hentry category-encuentros bs-black-trans transition1">
+              <section class="archive-info ciudad"></section>
+              <h2 class="entry-title"><a href="/articulos/me-deje-los-anticonceptivos-en-un-coche-caliente/" title="" rel="bookmark">¿Caduca Cialis (Tadalafilo)?
+                </a></h2>
+              <h4 class="author"><i class="icon-user"></i>José Bustamente</h4>
+              <div class="entry-content">
+                
+                <p>¿Qué debe hacer si descubre que tiene un paquete de Cialis caducado? Lea más en nuestro artículo 
+                  <p><a href="https://aes-sexologia.com/Caduca%20Cialis%20(Tadalafilo)/">¿Caduca Cialis (Tadalafilo)?</a> </p>
+              </div>
+              <footer class="entry-utility bt-type-one">
+                <a id="btn-background-form" class="btn btn-primary btn-small" href="/articulos/me-deje-los-anticonceptivos-en-un-coche-caliente/">Seguir leyendo <i class="icon-arrow-right icon-white"></i></a>
+              </footer>
+            </section>
+          </article>
+          
+          <article class="content-post">
+            <section id="post-908" class="post-908 post type-post status-publish format-standard has-post-thumbnail hentry category-encuentros bs-black-trans transition1">
+              <section class="archive-info ciudad"></section>
+              <h2 class="entry-title"><a href="/articulos/me-deje-los-anticonceptivos-en-un-coche-caliente/" title="" rel="bookmark">Más información sobre medicamentos para el tratamiento de la disfunción sexual
+                </a></h2>
+              <h4 class="author"><i class="icon-user"></i>José Bustamente</h4>
+              <div class="entry-content">
+                
+                <p>También en nuestro sitio web puede informarse sobre medicamentos como: 
+                  <p><a href="/viagra/">viagra</a>,  <a href="/kamagra/">kamagra</a>, <a href="/levitra/">levitra</a> ,  <a href="/priligy/">priligy</a>,  <a href="/viagra_femenina/">viagra femenina</a>, etc.  </p>
+              </div>
+              <footer class="entry-utility bt-type-one">
+                <a id="btn-background-form" class="btn btn-primary btn-small" href="/articulos/me-deje-los-anticonceptivos-en-un-coche-caliente/">Seguir leyendo <i class="icon-arrow-right icon-white"></i></a>
+              </footer>
+            </section>
+          </article>
+          
+          
+          
+                    <article class="content-post">
+            <section id="post-908" class="post-908 post type-post status-publish format-standard has-post-thumbnail hentry category-encuentros bs-black-trans transition1">
+              <section class="archive-info ciudad"></section>
+              <h2 class="entry-title"><a href="/articulos/me-deje-los-anticonceptivos-en-un-coche-caliente/" title="" rel="bookmark">Me dejé los anticonceptivos en un coche caliente</a></h2>
+              <h4 class="author"><i class="icon-user"></i>José Bustamente</h4>
+              <div class="entry-content">
+                
+                <p>En nuestra última pregunta y respuesta, el farmacéutico discute si el Klonopin (clonazepam) puede o no causar impotencia.<span class="Readmore">... <a href="/articulos/me-deje-los-anticonceptivos-en-un-coche-caliente/">[+]</a></span></p>
+              </div>
+              <footer class="entry-utility bt-type-one">
+                <a id="btn-background-form" class="btn btn-primary btn-small" href="/articulos/me-deje-los-anticonceptivos-en-un-coche-caliente/">Seguir leyendo <i class="icon-arrow-right icon-white"></i></a>
+              </footer>
+            </section>
+          </article>
+
+          <article class="content-post">
+            <section id="post-908" class="post-908 post type-post status-publish format-standard has-post-thumbnail hentry category-encuentros bs-black-trans transition1">
+              <section class="archive-info ciudad"></section>
+              <h2 class="entry-title"><a href="/encuentros/puede-el-klonopin-clonazepam-causar-disfuncion-erectil/" title="" rel="bookmark">¿Puede el Klonopin (Clonazepam) causar disfunción eréctil?</a></h2>
+              <h4 class="author"><i class="icon-user"></i>José Bustamente</h4>
+              <div class="entry-content">
+                
+                <p>En nuestra última pregunta y respuesta, el farmacéutico discute si el Klonopin (clonazepam) puede o no causar impotencia.<span class="Readmore">... <a href="/encuentros/puede-el-klonopin-clonazepam-causar-disfuncion-erectil/">[+]</a></span></p>
+              </div>
+              <footer class="entry-utility bt-type-one">
+                <a id="btn-background-form" class="btn btn-primary btn-small" href="/encuentros/puede-el-klonopin-clonazepam-causar-disfuncion-erectil/">Seguir leyendo <i class="icon-arrow-right icon-white"></i></a>
+              </footer>
+            </section>
+          </article>
+
+          <article class="content-post">
+            <section id="post-908" class="post-908 post type-post status-publish format-standard has-post-thumbnail hentry category-encuentros bs-black-trans transition1">
+              <section class="archive-info ciudad"></section>
+              <h2 class="entry-title"><a href="/encuentros/jornadas-de-salud-sexual-derechos-sexuales-y-calidad-de-vida/" title="" rel="bookmark">JORNADAS DE SALUD SEXUAL, DERECHOS SEXUALES Y CALIDAD DE VIDA</a></h2>
+              <h4 class="author"><i class="icon-user"></i>José Bustamente</h4>
+              <div class="entry-content">
+                <div class="post-tn"><img width="150" height="150" src="/wp-content/uploads/2018/05/logo-Jornadas-SEXOLOGIA-2018-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="logo Jornadas SEXOLOGIA 2018"></div>
+                <p>Los próximos 21 y 22 de junio en la Facultad de Geografía e Historia de la Universidad de Valencia, tendrán lugar las Jornadas de Salud Sexual, Derechos Sexuales y Calidad de Vida. Dichas jornadas tienen como misión la promoción de los derechos sexuales y la salud sexual. El objetivo es ofrecer información sobre los diferentes aspectos de la sexualidad humana y los avances conseguidos en tratamientos eficaces con evidencia científica, para contribuir a la actualización y formación de las y los profesionales, de los y las estudiantes y de la población general que tenga interés por la <span class="Readmore">... <a href="/encuentros/jornadas-de-salud-sexual-derechos-sexuales-y-calidad-de-vida/">[+]</a></span></p>
+              </div>
+              <footer class="entry-utility bt-type-one">
+                <a id="btn-background-form" class="btn btn-primary btn-small" href="/encuentros/jornadas-de-salud-sexual-derechos-sexuales-y-calidad-de-vida/">Seguir leyendo <i class="icon-arrow-right icon-white"></i></a>
+              </footer>
+            </section>
+          </article>
+          <article class="content-post">
+            <section id="post-899" class="post-899 post type-post status-publish format-standard has-post-thumbnail hentry category-articulos bs-black-trans transition1">
+              <section class="archive-info ciudad"></section>
+              <h2 class="entry-title"><a href="/articulos/nueva-tipologia-de-maltrato-infantil-formas-de-maltrato-sexual/" title="" rel="bookmark">Nueva tipología de Maltrato Infantil: Formas de Maltrato Sexual</a></h2>
+              <h4 class="author"><i class="icon-user"></i>José Bustamente</h4>
+              <div class="entry-content">
+                <div class="post-tn"><img width="150" height="150" src="/wp-content/uploads/2015/11/logo-Academia-150x150.png" class="attachment-thumbnail wp-post-image" alt="logo Academia"></div>
+                <p>La Academia Española de Sexología y Medicina Sexual, en la convicción de la necesidad de reconocer nuevas formas de maltrato infantil, hasta ahora silenciadas, ha elaborado, con la participación de sus 18 Académicos y la coordinación del Académico D. Félix López Sánchez, una propuesta de ‘NUEVA TIPOLOGÍA DE MALTRATO INFANTIL: FORMAS DE MALTRATO SEXUAL’&nbsp; Nueva Tipología Maltrato Infantil&nbsp;&nbsp;</p>
+              </div>
+              <footer class="entry-utility bt-type-one">
+                <a id="btn-background-form" class="btn btn-primary btn-small" href="/articulos/nueva-tipologia-de-maltrato-infantil-formas-de-maltrato-sexual/">Seguir leyendo <i class="icon-arrow-right icon-white"></i></a>
+              </footer>
+            </section>
+          </article>
+          <article class="content-post">
+            <section id="post-893" class="post-893 post type-post status-publish format-standard has-post-thumbnail hentry category-articulos bs-black-trans transition1">
+              <section class="archive-info ciudad"></section>
+              <h2 class="entry-title"><a href="/articulos/boletin-flasses-2015/" title="" rel="bookmark">Boletín FLASSES 2015 (nº3)</a></h2>
+              <h4 class="author"><i class="icon-user"></i>José Bustamente</h4>
+              <div class="entry-content">
+                <div class="post-tn"><img width="145" height="108" src="/wp-content/uploads/2015/02/logo_flasses_17.jpg" class="attachment-thumbnail wp-post-image" alt="logo_flasses_17"></div>
+                <p>Nuevo boletín de la Federación Latinoamericana de Sociedades de Sexología&nbsp;y Educación Sexual, en el que puedes encontrar información actualizada sobre salud sexual y artículos de interés. Pincha en el enlace para descargarlo Boletin flasses Nº VII año 2015 &nbsp;</p>
+              </div>
+              <footer class="entry-utility bt-type-one">
+                <a id="btn-background-form" class="btn btn-primary btn-small" href="/articulos/boletin-flasses-2015/">Seguir leyendo <i class="icon-arrow-right icon-white"></i></a>
+              </footer>
+            </section>
+          </article>
+          <article class="content-post">
+            <section id="post-866" class="post-866 post type-post status-publish format-standard has-post-thumbnail hentry category-articulos bs-black-trans transition1">
+              <section class="archive-info ciudad"></section>
+              <h2 class="entry-title"><a href="/articulos/jornadas-de-salud-sexual-identidad-y-bienestar-en-infancia-y-adolescencia/" title="" rel="bookmark">JORNADAS DE SALUD SEXUAL, IDENTIDAD y BIENESTAR en INFANCIA y ADOLESCENCIA</a></h2>
+              <h4 class="author"><i class="icon-user"></i>José Bustamente</h4>
+              <div class="entry-content">
+                <div class="post-tn"><img width="150" height="150" src="/wp-content/uploads/2015/03/Cartel-Jornadas-Valencia-JPG-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="Cartel Jornadas Valencia JPG"></div>
+                <p>Estas jornadas tienen como objetivo la difusión de información con evidencia científica para contribuir a la actualización y formación de los y las profesionales, estudiantes y población general que tengan interés por la salud sexual, la identidad y el bienestar en la infancia y adolescencia. Constan de una conferencia inaugural y tres mesas de debate con profesionales de la salud, de justicia, de bienestar social y de asociaciones que trabajan en el área específica. Se abordarán temas tan relevantes como los abusos sexuales&nbsp;a menores, un delito oculto a pesar de su alta incidencia, <span class="Readmore">... <a href="/articulos/jornadas-de-salud-sexual-identidad-y-bienestar-en-infancia-y-adolescencia/">[+]</a></span></p>
+              </div>
+              <footer class="entry-utility bt-type-one">
+                <a id="btn-background-form" class="btn btn-primary btn-small" href="/articulos/jornadas-de-salud-sexual-identidad-y-bienestar-en-infancia-y-adolescencia/">Seguir leyendo <i class="icon-arrow-right icon-white"></i></a>
+              </footer>
+            </section>
+          </article>
+          <article class="content-post">
+            <section id="post-874" class="post-874 post type-post status-publish format-standard hentry category-sin-categoria bs-black-trans transition1">
+              <section class="archive-info ciudad"></section>
+              <h2 class="entry-title"><a href="/sin-categoria/aviso-nueva-sede-de-las-jornadas/" title="" rel="bookmark">AVISO: NUEVA SEDE DE LAS JORNADAS DE SALUD SEXUAL</a></h2>
+              <h4 class="author"><i class="icon-user"></i>espill</h4>
+              <div class="entry-content">
+                <p>Debido al gran número de participantes en las Jornadas, el acto se realizará en: &nbsp; La&nbsp;Facultad de Geografía e Historia&nbsp;de la Universidad de Valencia. &nbsp; Salón de actos “Joan Fuster” 1ºp. &nbsp; Av. de Blasco Ibáñez, 28, 46010 – Valencia&nbsp;(España)</p>
+              </div>
+              <footer class="entry-utility bt-type-one">
+                <a id="btn-background-form" class="btn btn-primary btn-small" href="/sin-categoria/aviso-nueva-sede-de-las-jornadas/">Seguir leyendo <i class="icon-arrow-right icon-white"></i></a>
+              </footer>
+            </section>
+          </article>
+          <article class="content-post">
+            <section id="post-847" class="post-847 post type-post status-publish format-standard has-post-thumbnail hentry category-articulos bs-black-trans transition1">
+              <section class="archive-info ciudad"></section>
+              <h2 class="entry-title"><a href="/articulos/boletin-de-flasses-de-2015-no1/" title="" rel="bookmark">Boletín de Flasses de 2015 (nº1)</a></h2>
+              <h4 class="author"><i class="icon-user"></i>José Bustamente</h4>
+              <div class="entry-content">
+                <div class="post-tn"><img width="145" height="108" src="/wp-content/uploads/2015/02/logo_flasses_17.jpg" class="attachment-thumbnail wp-post-image" alt="logo_flasses_17"></div>
+                <p>Aquí os dejamos el Boletín de FLASSES de 2015. La AES forma parte de la Federación Latinoamericana de Sociedades de Sexología y Educación Sexual que fue fundada en 1980. Para quien no conozca a FLASSES contaos simplemente que es el referente en latinoamérica en lo que a la Sexología científica se refiere, y que su fundación supuso un enorme progreso en el desarrollo de la Sexología y la Educación Sexual en latinoamerica. El expresidente de AES, Don Antonio Casaubón fue elegido como presidente de la FLASSES (2010-2014) tras el XV CLASES Alicante 2010&nbsp;&nbsp;que organizó el Instituto Es <span class="Readmore">... <a href="/articulos/boletin-de-flasses-de-2015-no1/">[+]</a></span></p>
+              </div>
+              <footer class="entry-utility bt-type-one">
+                <a id="btn-background-form" class="btn btn-primary btn-small" href="/articulos/boletin-de-flasses-de-2015-no1/">Seguir leyendo <i class="icon-arrow-right icon-white"></i></a>
+              </footer>
+            </section>
+          </article>
+          <article class="content-post">
+            <section id="post-804" class="post-804 post type-post status-publish format-standard has-post-thumbnail hentry category-articulos category-sin-categoria bs-black-trans transition1">
+              <section class="archive-info ciudad"></section>
+              <h2 class="entry-title"><a href="/sin-categoria/revista-desexologia-volumen-3-no/" title="" rel="bookmark">Revista DeSexologia Volumen 3, nº2</a></h2>
+              <h4 class="author"><i class="icon-user"></i>José Bustamente</h4>
+              <div class="entry-content">
+                <div class="post-tn"><img width="150" height="150" src="/wp-content/uploads/2014/11/desexolgia-vol31-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="desexolgia vol3"></div>
+                <p>&nbsp;El entendimiento que hoy día tenemos de la Sexología como ciencia, se sustenta en unos pilares que fueron puestos inicialmente por investigadores predecesores, que partían desde diferentes enfoques y perspectivas. La investigación y &nbsp;la producción científica&nbsp;en sexología es necesaria para aumentar la compresión de la función sexual humana en su triple vertiente , para aglutinar la dispersión de conocimientos que desde las diversas disciplinas se generan y para seguir profesionalizando la sexología.</p>
+              </div>
+              <footer class="entry-utility bt-type-one">
+                <a id="btn-background-form" class="btn btn-primary btn-small" href="/sin-categoria/revista-desexologia-volumen-3-no/">Seguir leyendo <i class="icon-arrow-right icon-white"></i></a>
+              </footer>
+            </section>
+          </article>
+          <article class="content-post">
+            <section id="post-783" class="post-783 post type-post status-publish format-standard has-post-thumbnail hentry category-articulos category-encuentros bs-black-trans transition1">
+              <section class="archive-info ciudad"></section>
+              <h2 class="entry-title"><a href="/articulos/educacion-integral-de-la-sexualidad-declaracion-de-punta-2014/" title="" rel="bookmark">DECLARACIÓN DE PUNTA CANA 2014</a></h2>
+              <h4 class="author"><i class="icon-user"></i>José Bustamente</h4>
+              <div class="entry-content">
+                <div class="post-tn"><img width="150" height="150" src="/wp-content/uploads/2014/10/PUNTA-CANA1-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="PUNTA CANA"></div>
+                <p>&nbsp; La declaración de los derechos sexuales, promovida por la Asociación Mundial para la Salud Sexual (WAS) y adoptada por la Federación Latinoamericana de Sociedades de Sexología y Educación Sexual (FLASSES), proclama el derecho a la educación integral de la sexualidad: Toda persona tiene derecho a una educación integral de la sexualidad, que debe ser apropiada a la edad, científicamente precisa, culturalmente competente, basada en los derechos humanos y en la igualdad de género, con un enfoque positivo de la sexualidad y el placer. Educación Integral de la Sexualidad &#8220;DEC <span class="Readmore">... <a href="/articulos/educacion-integral-de-la-sexualidad-declaracion-de-punta-2014/">[+]</a></span></p>
+              </div>
+              <footer class="entry-utility bt-type-one">
+                <a id="btn-background-form" class="btn btn-primary btn-small" href="/articulos/educacion-integral-de-la-sexualidad-declaracion-de-punta-2014/">Seguir leyendo <i class="icon-arrow-right icon-white"></i></a>
+              </footer>
+            </section>
+          </article>
+          <article class="content-post">
+            <section id="post-764" class="post-764 post type-post status-publish format-standard hentry category-sin-categoria bs-black-trans transition1">
+              <section class="archive-info ciudad"></section>
+              <h2 class="entry-title"><a href="/sin-categoria/iv-jornadas-universitarias-internacionales-de-sexologia-de-la-uned/" title="" rel="bookmark">IV Jornadas Universitarias Internacionales de Sexología de la UNED</a></h2>
+              <h4 class="author"><i class="icon-user"></i>José Bustamente</h4>
+              <div class="entry-content">
+                <p>&nbsp; Los días 19 y 20 de septiembre de 2014, tendrán lugar en Madrid las IV Jornadas Universitarias Internacionales de Sexología de la UNED. Si eres alumno del Programa Universitario de Formación en Salud Sexual o eres SOCIO de AES podrás disfrutar de las Jornadas de manera gratuita, sino, puedes encontrar los precios de la inscripción y el resto de información siguiendo este enlace.&nbsp;</p>
+              </div>
+              <footer class="entry-utility bt-type-one">
+                <a id="btn-background-form" class="btn btn-primary btn-small" href="/sin-categoria/iv-jornadas-universitarias-internacionales-de-sexologia-de-la-uned/">Seguir leyendo <i class="icon-arrow-right icon-white"></i></a>
+              </footer>
+            </section>
+          </article>
+          <article class="content-post">
+            <section id="post-756" class="post-756 post type-post status-publish format-standard hentry category-articulos bs-black-trans transition1">
+              <section class="archive-info ciudad"></section>
+              <h2 class="entry-title"><a href="/articulos/revista-de-sexologia/" title="" rel="bookmark">Revista &#8220;De Sexología&#8221;</a></h2>
+              <h4 class="author"><i class="icon-user"></i>José Bustamente</h4>
+              <div class="entry-content">
+                <p>Revista &#8220;De Sexología&nbsp;</p>
+              </div>
+              <footer class="entry-utility bt-type-one">
+                <a id="btn-background-form" class="btn btn-primary btn-small" href="/articulos/revista-de-sexologia/">Seguir leyendo <i class="icon-arrow-right icon-white"></i></a>
+              </footer>
+            </section>
+          </article>
+          <article class="content-post">
+            <section id="post-740" class="post-740 post type-post status-publish format-standard has-post-thumbnail hentry category-articulos bs-black-trans transition1">
+              <section class="archive-info ciudad"></section>
+              <h2 class="entry-title"><a href="/articulos/manifiesto-profesionales-sanitarios/" title="" rel="bookmark">MANIFIESTO PROFESIONALES SANITARIOS</a></h2>
+              <h4 class="author"><i class="icon-user"></i>José Bustamente</h4>
+              <div class="entry-content">
+                <div class="post-tn"><img width="150" height="150" src="/wp-content/uploads/2014/01/Maternidad_elegida-68b0c2-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="Maternidad_elegida-68b0c"></div>
+                <p>&nbsp; Apreciados amigos y amigas: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Os remito el Manifiesto que han elaborado algunos profesionales sanitarios preocupados por las consecuencias que la aprobación del Anteproyecto de ley sobre aborto, recientemente presentado por el gobierno, tendrá sobre la salud de las mujeres. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Están recogiendo&nbsp;firmas a título individual&nbsp;de profesionales de la salud (médicos/as y otros).&nbsp;Si estás de acuerdo con el texto,&nbsp;contesta a una de las dos direcciones de correo electrónico siguientes, indicando nombre y apellidos, DNI, ciudad, profesión, especialidad o c <span class="Readmore">... <a href="/articulos/manifiesto-profesionales-sanitarios/">[+]</a></span></p>
+              </div>
+              <footer class="entry-utility bt-type-one">
+                <a id="btn-background-form" class="btn btn-primary btn-small" href="/articulos/manifiesto-profesionales-sanitarios/">Seguir leyendo <i class="icon-arrow-right icon-white"></i></a>
+              </footer>
+            </section>
+          </article>
+          <article class="content-post">
+            <section id="post-735" class="post-735 post type-post status-publish format-standard hentry category-articulos bs-black-trans transition1">
+              <section class="archive-info ciudad"></section>
+              <h2 class="entry-title"><a href="/articulos/sabes-como-disfrutar-de-tu-cuerpo/" title="" rel="bookmark">¿Sabes cómo disfrutar de tu cuerpo?</a></h2>
+              <h4 class="author"><i class="icon-user"></i>José Bustamente</h4>
+              <div class="entry-content">
+                <p>¿Sabes cómo disfrutar de tu cuerpo? Los seres humanos somos exploradores&nbsp;por naturaleza, desde que nacemos hasta que morimos estamos en la continua búsqueda de sensaciones que provienen del mundo externo o que simplemente se alojan en nosotros mismos. Lo vemos &nbsp;claramente en &nbsp;la curiosidad de los niños. Juegan, untan sus manos de barro, de pintura, de comida; meten los&nbsp;&nbsp;dedos en las papillas; chupan sus pies; exploran sus genitales, los huelen, los miran, los tocan, se asombran, se ríen. Todo un cóctel de sensaciones que disfrutan por si mismos con naturalidad.</p>
+              </div>
+              <footer class="entry-utility bt-type-one">
+                <a id="btn-background-form" class="btn btn-primary btn-small" href="/articulos/sabes-como-disfrutar-de-tu-cuerpo/">Seguir leyendo <i class="icon-arrow-right icon-white"></i></a>
+              </footer>
+            </section>
+          </article>
+          <article class="content-post">
+            <section id="post-701" class="post-701 post type-post status-publish format-standard has-post-thumbnail hentry category-sin-categoria bs-black-trans transition1">
+              <section class="archive-info ciudad"></section>
+              <h2 class="entry-title"><a href="/sin-categoria/iii-jornadas-universitarias-internacionales-de-sexologia/" title="" rel="bookmark">III JORNADAS UNIVERSITARIAS INTERNACIONALES DE SEXOLOGIA</a></h2>
+              <h4 class="author"><i class="icon-user"></i>José Bustamente</h4>
+              <div class="entry-content">
+                <div class="post-tn"><img width="150" height="150" src="/wp-content/uploads/2013/10/AES-JORNADAS2-150x150.png" class="attachment-thumbnail wp-post-image" alt="AES JORNADAS"></div>
+                <p>La Asociación Española de Sexología participa en la organización de las III JORNADAS UNIVERSITARIAS INTERNACIONALES EN SEXOLOGIA. El Dr. Andrés López de la Llave, director de las mismas y miembro de la Junta Directiva de AES explica: &#8220;Estas jornadas universitarias están dirigidas a todas las personas que están interesadas en la sexualidad humana desde una perspectiva científica. Pretenden ofrecer propuestas que favorezcan la actualización en el campo de la sexología. Así, el objetivo del encuentro es fomentar el debate, la reflexión y el intercambio de ideas y experiencia <span class="Readmore">... <a href="/sin-categoria/iii-jornadas-universitarias-internacionales-de-sexologia/">[+]</a></span></p>
+              </div>
+              <footer class="entry-utility bt-type-one">
+                <a id="btn-background-form" class="btn btn-primary btn-small" href="/sin-categoria/iii-jornadas-universitarias-internacionales-de-sexologia/">Seguir leyendo <i class="icon-arrow-right icon-white"></i></a>
+              </footer>
+            </section>
+          </article>
+          <article class="content-post">
+            <section id="post-670" class="post-670 post type-post status-publish format-standard hentry category-sin-categoria bs-black-trans transition1">
+              <section class="archive-info ciudad"></section>
+              <h2 class="entry-title"><a href="/sin-categoria/1as-jornadas-nacionales-de-salud-sexual-semergen-valencia/" title="" rel="bookmark">1as Jornadas Nacionales de Salud Sexual SEMERGEN Valencia</a></h2>
+              <h4 class="author"><i class="icon-user"></i>José Bustamente</h4>
+              <div class="entry-content">
+                <p>Este evento, tendrá lugar en el hotel SH Valencia Palace de Valencia durante los días 21 y 22 de junio de 2013 y tendrá como linea directriz la atención a la sexualidad y todas su implicaciones en la actividad diaria de los y las profesionales de medicina de Atención Primaria. Se abordarán, además, experiencias innovadoras de diferentes lugares de España, la influencia de la crisis en la atención a la población y otros aspectos socio-sanitarios. No se olvidan &nbsp;el resto de los elementos clásicos, como son la actualización en la formación y los aspectos profesionales, para consegui <span class="Readmore">... <a href="/sin-categoria/1as-jornadas-nacionales-de-salud-sexual-semergen-valencia/">[+]</a></span></p>
+              </div>
+              <footer class="entry-utility bt-type-one">
+                <a id="btn-background-form" class="btn btn-primary btn-small" href="/sin-categoria/1as-jornadas-nacionales-de-salud-sexual-semergen-valencia/">Seguir leyendo <i class="icon-arrow-right icon-white"></i></a>
+              </footer>
+            </section>
+          </article>
+          <article class="content-post">
+            <section id="post-658" class="post-658 post type-post status-publish format-standard has-post-thumbnail hentry category-articulos bs-black-trans transition1">
+              <section class="archive-info ciudad"></section>
+              <h2 class="entry-title"><a href="/articulos/premio-was-a-la-excelencia-e-innovacion-en-educacion-de-la-sexualidad-2013/" title="" rel="bookmark">PREMIO WAS A LA EXCELENCIA E INNOVACIÓN EN EDUCACIÓN DE LA SEXUALIDAD 2013.</a></h2>
+              <h4 class="author"><i class="icon-user"></i>José Bustamente</h4>
+              <div class="entry-content">
+                <div class="post-tn"><img width="150" height="98" src="/wp-content/uploads/2013/03/WAS-LOGO-150x98.jpg" class="attachment-thumbnail wp-post-image" alt="WAS LOGO"></div>
+                <p>La WAS otorgará en el XXI Congreso Mundial para la Salud Sexual. Septiembre 21-24, 2013. Porto Alegre, Brasil. El Premio de la Asociación Mundial para la salud Sexual (WAS) de Educación Sexual es un reconocimiento a la especial contribución que hacen los educadores de la sexualidad a los campos de la educación, la salud y la sexología. Se otorga cada dos años en el Congreso Mundial de Salud Sexual correspondiente. La Asociación Mundial para la salud Sexual (WAS) invita a individuos y organizaciones a que presenten candidatos para este importante premio en sus tres categorías. A contin <span class="Readmore">... <a href="/articulos/premio-was-a-la-excelencia-e-innovacion-en-educacion-de-la-sexualidad-2013/">[+]</a></span></p>
+              </div>
+              <footer class="entry-utility bt-type-one">
+                <a id="btn-background-form" class="btn btn-primary btn-small" href="/articulos/premio-was-a-la-excelencia-e-innovacion-en-educacion-de-la-sexualidad-2013/">Seguir leyendo <i class="icon-arrow-right icon-white"></i></a>
+              </footer>
+            </section>
+          </article>
+          <article class="content-post">
+            <section id="post-45" class="post-45 post type-post status-publish format-standard has-post-thumbnail hentry category-articulos category-encuentros tag-aes tag-encuentro tag-flasses tag-uned bs-black-trans transition1">
+              <section class="archive-info ciudad"></section>
+              <h2 class="entry-title"><a href="/articulos/encuentro-madrid-2011/" title="" rel="bookmark">Encuentro Mundial de Expertos Madrid 2011</a></h2>
+              <h4 class="author"><i class="icon-user"></i>Felipe Hurtado</h4>
+              <div class="entry-content">
+                <div class="post-tn"><img width="150" height="150" src="/wp-content/uploads/2012/04/encuentro21-150x150.png" class="attachment-thumbnail wp-post-image" alt="encuentro2"></div>
+                <p>Expertos en educación para la sexualidad. Con el objetivo de elaborar un documento que sirviera de de referencia y apoyo a los profesionales e Instituciones que trabajan en educación sexual y proponer estrategias y acciones concretas y consensuadas, encaminadas a implantar una educación sexual con bases científicas para logar el cumplimiento pleno de los derechos sexuales. Se realizó en Madrid durante los días 20 y 21 de junio de 2011 un Encuentro Mundial de Expertos en Educación para la Sexualidad. El encuentro de expertos estuvo organizado y convocado por la Asociación Española de <span class="Readmore">... <a href="/articulos/encuentro-madrid-2011/">[+]</a></span></p>
+              </div>
+              <footer class="entry-utility bt-type-one">
+                <a id="btn-background-form" class="btn btn-primary btn-small" href="/articulos/encuentro-madrid-2011/">Seguir leyendo <i class="icon-arrow-right icon-white"></i></a>
+              </footer>
+            </section>
+          </article>
+          <article class="content-post">
+            <section id="post-41" class="post-41 post type-post status-publish format-standard has-post-thumbnail hentry category-articulos bs-black-trans transition1">
+              <section class="archive-info ciudad"></section>
+              <h2 class="entry-title"><a href="/articulos/curabitur-ultricies-elit-sed/" title="" rel="bookmark">Crónica del Congreso Latinoamericano de Sexología</a></h2>
+              <h4 class="author"><i class="icon-user"></i>José Bustamente</h4>
+              <div class="entry-content">
+                <div class="post-tn"><img width="150" height="150" src="/wp-content/uploads/2012/04/congresoprincipal_med-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="congresoprincipal_med"></div>
+                <p>Bajo el lema de “La educación sexual en los procesos de transformación social” comienza hoy aquí el VI Congreso Cubano de Educación, Orientación y Terapia Sexual. Una conferencia magistral dictada por la licenciada Mariela Castro Espín, presidenta del Comité Organizador, abrirá la primera jornada de trabajo del evento, que sesionará en el Palacio de Convenciones hasta el próximo jueves. La sesión de la mañana incluye, además, el tema género y sexualidad: la construcción social del deseo erótico en la prostitución entre varones, que impartirá el doctor Oscar Guasch Andreu, <span class="Readmore">... <a href="/articulos/curabitur-ultricies-elit-sed/">[+]</a></span></p>
+              </div>
+              <footer class="entry-utility bt-type-one">
+                <a id="btn-background-form" class="btn btn-primary btn-small" href="/articulos/curabitur-ultricies-elit-sed/">Seguir leyendo <i class="icon-arrow-right icon-white"></i></a>
+              </footer>
+            </section>
+          </article>
+          <article class="content-post">
+            <section id="post-1" class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-articulos bs-black-trans transition1">
+              <section class="archive-info ciudad"></section>
+              <h2 class="entry-title"><a href="/articulos/hola-mundo/" title="" rel="bookmark">2º Jornadas de Actualización en Salud Sexual</a></h2>
+              <h4 class="author"><i class="icon-user"></i>Maria Pérez</h4>
+              <div class="entry-content">
+                <div class="post-tn"><img width="150" height="150" src="/wp-content/uploads/2012/04/jornadas1-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="jornadas1"></div>
+                <p>El prestigioso neurocientífico Barry Komisaruk, profesor de la Universidad de Rutgers, Nueva Jersey, y autor de múltiples estudios sobre el funcionamiento cerebral durante el orgasmo, será el invitado de excepción en las Segundas Jornadas Universitarias Internacionales de Actualización en Salud Sexual que se celebrarán el 23 de junio en Madrid. Estudiantes y profesionales del sector de la salud tienen la oportunidad de conocer de primera mano las percepciones de un hombre clave en el descubrimiento del funcionamiento cerebral. Barry Komisaruk es la persona que más ha estudiado el orgasm <span class="Readmore">... <a href="/articulos/hola-mundo/">[+]</a></span></p>
+              </div>
+              <footer class="entry-utility bt-type-one">
+                <a id="btn-background-form" class="btn btn-primary btn-small" href="/articulos/hola-mundo/">Seguir leyendo <i class="icon-arrow-right icon-white"></i></a>
+              </footer>
+            </section>
+          </article>
+          <article class="content-post">
+            <section id="post-789" class="post-789 post type-post status-publish format-standard hentry category-articulos bs-black-trans transition1">
+              <section class="archive-info ciudad"></section>
+              <h2 class="entry-title"><a href="/articulos/estatutos-aes/" title="" rel="bookmark">ESTATUTOS AES</a></h2>
+              <h4 class="author"><i class="icon-user"></i>José Bustamente</h4>
+              <div class="entry-content">
+                <p>Descarga aquí los estatutos de la Asociación de Especialistas en Sexología</p>
+              </div>
+              <footer class="entry-utility bt-type-one">
+                <a id="btn-background-form" class="btn btn-primary btn-small" href="/articulos/estatutos-aes/">Seguir leyendo <i class="icon-arrow-right icon-white"></i></a>
+              </footer>
+            </section>
+          </article>
+        </section>
+        <aside class="side-r">
+          <section class="side-calendar">
+            <h3>Calendario de eventos</h3>
+            <div id='wp-calendar'>
+              <table class='nav'>
+                <tbody>
+                  <tr>
+                    <td id='prev'>
+                      <a id='ec3_prev' href='/?m=201808&amp;cat=4'>&laquo;&nbsp;ago</a>
+                    </td>
+                    <td>
+                      <img id='ec3_spinner' style='display:none' src='/wp-content/plugins/event-calendar-3-for-php-53/ec_load.gif' alt='spinner'> <a id='ec3_publish' href='/?ec3_ical' title='Suscribirse a iCalendar.'><img src='/wp-content/plugins/event-calendar-3-for-php-53/publish.gif' alt='iCalendar'></a>
+                    </td>
+                    <td id='next'>
+                      <a id='ec3_next' href='/?m=201810&amp;cat=4'>oct&nbsp;&raquo;</a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <table id='ec3_2018_9'>
+                <caption>
+                  <a href="/?m=201809&amp;cat=4" title="View posts for septiembre 2018">septiembre 2018</a>
+                </caption>
+                <thead>
+                  <tr>
+                    <th abbr='Lunes' scope='col' title='Lunes'>L</th>
+                    <th abbr='Martes' scope='col' title='Martes'>M</th>
+                    <th abbr='Miércoles' scope='col' title='Miércoles'>X</th>
+                    <th abbr='Jueves' scope='col' title='Jueves'>J</th>
+                    <th abbr='Viernes' scope='col' title='Viernes'>V</th>
+                    <th abbr='Sábado' scope='col' title='Sábado'>S</th>
+                    <th abbr='Domingo' scope='col' title='Domingo'>D</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td colspan='5' class='pad'>&nbsp;</td>
+                    <td id='ec3_2018_9_1'>1</td>
+                    <td id='ec3_2018_9_2'>2</td>
+                  </tr>
+                  <tr>
+                    <td id='ec3_2018_9_3'>3</td>
+                    <td id='ec3_2018_9_4'>4</td>
+                    <td id='ec3_2018_9_5'>5</td>
+                    <td id='ec3_2018_9_6'>6</td>
+                    <td id='ec3_2018_9_7'>7</td>
+                    <td id='ec3_2018_9_8'>8</td>
+                    <td id='ec3_2018_9_9'>9</td>
+                  </tr>
+                  <tr>
+                    <td id='ec3_2018_9_10'>10</td>
+                    <td id='ec3_2018_9_11'>11</td>
+                    <td id='ec3_2018_9_12'>12</td>
+                    <td id='today'>13</td>
+                    <td id='ec3_2018_9_14'>14</td>
+                    <td id='ec3_2018_9_15'>15</td>
+                    <td id='ec3_2018_9_16'>16</td>
+                  </tr>
+                  <tr>
+                    <td id='ec3_2018_9_17'>17</td>
+                    <td id='ec3_2018_9_18'>18</td>
+                    <td id='ec3_2018_9_19'>19</td>
+                    <td id='ec3_2018_9_20'>20</td>
+                    <td id='ec3_2018_9_21'>21</td>
+                    <td id='ec3_2018_9_22'>22</td>
+                    <td id='ec3_2018_9_23'>23</td>
+                  </tr>
+                  <tr>
+                    <td id='ec3_2018_9_24'>24</td>
+                    <td id='ec3_2018_9_25'>25</td>
+                    <td id='ec3_2018_9_26'>26</td>
+                    <td id='ec3_2018_9_27'>27</td>
+                    <td id='ec3_2018_9_28'>28</td>
+                    <td id='ec3_2018_9_29'>29</td>
+                    <td id='ec3_2018_9_30'>30</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+          <section id="pages-2" class="widget-container widget_pages">
+            <h3 class="widget-title">Sobre la asociación</h3>
+            <ul>
+              <li class="page_item page-item-214">
+                <a href="/codigo-deontologico/">Código Deontológico</a>
+              </li>
+              <li class="page_item page-item-111">
+                <a href="/galeria/">Galeria</a>
+              </li>
+              <li class="page_item page-item-61">
+                <a href="/hazte-socio/">Hazte Socio</a>
+              </li>
+              <li class="page_item page-item-65">
+                <a href="/junta-directiva/">Junta directiva</a>
+              </li>
+              <li class="page_item page-item-208">
+                <a href="/mapa-de-profesionales/">Mapa de Profesionales</a>
+              </li>
+              <li class="page_item page-item-59">
+                <a href="/nuestra-mision/">Nuestra misión</a>
+              </li>
+            </ul>
+          </section>
+          <section id="linkcat-2" class="widget-container widget_links">
+            <h3 class="widget-title">Sitios de interés</h3>
+            <ul class='xoxo blogroll'>
+              <li>desexologia.com</li>
+              <li>ESPILL</li>
+              <li>Insex BCN</li>
+              <li>Institut Goma</li>
+              <li>Master en Sexología</li>
+              <li>Terapia Sexual y de Pareja</li>
+              <li>Tienda Erótica</li>
+            </ul>
+          </section>
+        </aside>
+        <h4 class="shadow">Miembro de:</h4>
+        <div class="side-logos"><img src="/wp-content/themes/wp_themeraw_dev_v2/images/WAS_Logo.png" alt="World Association for Sexual Healt"> <a href="#"><img id="logoAcademia" src="/wp-content/themes/wp_themeraw_dev_v2/images/academiaLogo.jpg" title="Academia Española de Sexología y Medicina Sexual"></a> <img id="logoFESS" src="/wp-content/themes/wp_themeraw_dev_v2/images/fessLogo.png" title="Academia Española de Sexología y Medicina Sexual"> <img id="logoFLASSES" src="/wp-content/themes/wp_themeraw_dev_v2/images/flassesLogo.png" title="Academia Española de Sexología y Medicina Sexual"></div>
+      </section>
+    </section>
+  </article>
+  <footer class="foo" role="contentinfo">
+    <section class="web">
+      <div class="footer-columns">
+        <div class="col">
+          <nav class="nav-footer">
+            <h3 class="col1-title">La asociación</h3>
+            <div class="textwidget">
+              <ul>
+                <li>
+                  <a href="#">Nuestra misión</a>
+                </li>
+                <li>
+                  <a href="#">Junta Directiva</a>
+                </li>
+                <li>
+                  <a href="#">Mapa de profesionales</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div class="col">
+          <nav class="nav-footer">
+            <h3 class="col2-title">Últimos eventos</h3>
+            <div class="textwidget">
+              <ul>
+                <li>XV Congreso de Sexología (Alicante)</li>
+                <li>Congreso de Sexología (Madrid)</li>
+                <li>Congreso de Sexología (Santander)</li>
+                <li><a href="https://aes-sexologia.com/priligy/">Priligy</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div class="col">
+          <h3>Nuestros socios</h3>
+          <ul>
+            <li>
+              <a href="/socios/maria-encarnacion-fabra-coscolla/">María Encarnación Fabra Coscolla</a> <span>(España)</span>
+            </li>
+            <li>
+              <a href="/socios/rosa-alcaraz/">Rosa Alcaraz Pardo</a> <span>(España)</span>
+            </li>
+            <li>
+              <a href="/socios/nayara-malnero/">Nayara Malnero</a> <span>()</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <span id="copyright">AES &copy; 2012</span> <span id="direccion">C/ Blas Valero Nº 71, Ático. 03201 Elche (Alicante) - Tel. 615 128 649 - <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="b4dddad2db9ad5d1d1c7f4d3d9d5ddd89ad7dbd9">[email&#160;protected]</a></span><span id="credit">Desarrollado por Workether</span>
+      </div>
+    </section>
+  </footer>
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type='text/javascript' src='/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script> 
+  <script type='text/javascript'>
+
+
+  /* <![CDATA[ */
+  var _wpcf7 = {"loaderUrl":"http:\/\/aes-sexologia.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Enviando..."};
+  /* ]]> */
+  </script> 
+  <script type='text/javascript' src='/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.1.1'></script> 
+  <script type="text/javascript" src="/wp-content/themes/wp_themeraw_dev_v2/slider/jquery.nivo.slider.js"></script> 
+  <script type="text/javascript">
+
+
+    $(window).load(function() {
+        $('#slider').nivoSlider({
+        effect: 'fade', // Specify sets like: 'fold,fade,sliceDown'
+        animSpeed: 500, // Slide transition speed
+        pauseTime: 6000, // How long each slide will show
+        randomStart: true, // Start on a random slide
+        controlNav: false // 1,2,3... navigation
+          });
+        });
+  </script>
+</body>
+</html>

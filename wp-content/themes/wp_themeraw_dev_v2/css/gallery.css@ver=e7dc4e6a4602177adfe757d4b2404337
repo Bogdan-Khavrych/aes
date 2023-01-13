@@ -1,0 +1,27 @@
+.gallery-block {
+	background-color: rgba(0, 0, 0, 0.1);
+	-webkit-transition:background, box-shadow  .3s ease-in;  
+   	-moz-transition:background, box-shadow .3s ease-in;  
+  	-o-transition:background, box-shadow  .3s ease-in;  
+  	 transition:background, box-shadow .3s ease-in;  
+	-webkit-border-radius: 12px 12px 12px 12px;
+	-moz-border-radius: 12px 12px 12px 12px;
+	border-radius: 12px 12px 12px 12px;
+	margin-top: 10px;
+	padding: 2px 22px;
+}
+
+.gallery-block:hover {
+	background-color: rgba(0,0,0,.4);
+	box-shadow: 0 0 4px 0 #11456B;
+}
+
+.gallery-block h2 {
+	line-height: 10px;
+}
+
+p.gallery-date {
+	font-family: 'WalkwayBoldRegular',Arial,sans-serif;
+	font-size: 0.6em;
+	line-height: 0;
+}
